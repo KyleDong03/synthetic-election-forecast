@@ -1,0 +1,36 @@
+state,state_name,state_fips,election_type,race_id,election_date
+AK,Alaska,2,regular,2026-AK-S-regular,2026-11-03
+AL,Alabama,1,regular,2026-AL-S-regular,2026-11-03
+AR,Arkansas,5,regular,2026-AR-S-regular,2026-11-03
+CO,Colorado,8,regular,2026-CO-S-regular,2026-11-03
+DE,Delaware,10,regular,2026-DE-S-regular,2026-11-03
+FL,Florida,12,special,2026-FL-S-special,2026-11-03
+GA,Georgia,13,regular,2026-GA-S-regular,2026-11-03
+IA,Iowa,19,regular,2026-IA-S-regular,2026-11-03
+ID,Idaho,16,regular,2026-ID-S-regular,2026-11-03
+IL,Illinois,17,regular,2026-IL-S-regular,2026-11-03
+KS,Kansas,20,regular,2026-KS-S-regular,2026-11-03
+KY,Kentucky,21,regular,2026-KY-S-regular,2026-11-03
+LA,Louisiana,22,regular,2026-LA-S-regular,2026-11-03
+MA,Massachusetts,25,regular,2026-MA-S-regular,2026-11-03
+ME,Maine,23,regular,2026-ME-S-regular,2026-11-03
+MI,Michigan,26,regular,2026-MI-S-regular,2026-11-03
+MN,Minnesota,27,regular,2026-MN-S-regular,2026-11-03
+MS,Mississippi,28,regular,2026-MS-S-regular,2026-11-03
+MT,Montana,30,regular,2026-MT-S-regular,2026-11-03
+NC,North Carolina,37,regular,2026-NC-S-regular,2026-11-03
+NE,Nebraska,31,regular,2026-NE-S-regular,2026-11-03
+NH,New Hampshire,33,regular,2026-NH-S-regular,2026-11-03
+NJ,New Jersey,34,regular,2026-NJ-S-regular,2026-11-03
+NM,New Mexico,35,regular,2026-NM-S-regular,2026-11-03
+OH,Ohio,39,special,2026-OH-S-special,2026-11-03
+OK,Oklahoma,40,regular,2026-OK-S-regular,2026-11-03
+OR,Oregon,41,regular,2026-OR-S-regular,2026-11-03
+RI,Rhode Island,44,regular,2026-RI-S-regular,2026-11-03
+SC,South Carolina,45,regular,2026-SC-S-regular,2026-11-03
+SD,South Dakota,46,regular,2026-SD-S-regular,2026-11-03
+TN,Tennessee,47,regular,2026-TN-S-regular,2026-11-03
+TX,Texas,48,regular,2026-TX-S-regular,2026-11-03
+VA,Virginia,51,regular,2026-VA-S-regular,2026-11-03
+WV,West Virginia,54,regular,2026-WV-S-regular,2026-11-03
+WY,Wyoming,56,regular,2026-WY-S-regular,2026-11-03
