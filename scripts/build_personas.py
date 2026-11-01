@@ -6,7 +6,7 @@ import numpy as np
 import polars as pl
 
 CES_PATH = Path("data/01_raw_data/ces_common_2025.parquet")
-OUTPUT_PATH = Path("data/02_personas/personas.parquet")
+OUTPUT_PATH = Path("data/02_processed_data/personas.parquet")
 ELECTION_YEAR = 2026
 PERSONAS_PER_STATE = 25
 SEED = 42

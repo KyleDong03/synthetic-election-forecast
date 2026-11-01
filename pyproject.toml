@@ -5,8 +5,10 @@ description = "Reproducible election forecasts using synthetic survey responses"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "numpy>=2.5.4",
+    "openai>=3.42.0",
     "polars>=2.1.0",
     "pydataverse>=0.3.5",
+    "python-dotenv>=1.2.4",
 ]
 
 [tool.uv]
