@@ -1,0 +1,36 @@
+state,state_name,state_fips,election_type
+AL,Alabama,1,regular
+AK,Alaska,2,regular
+AR,Arkansas,5,regular
+CO,Colorado,8,regular
+DE,Delaware,10,regular
+FL,Florida,12,special
+GA,Georgia,13,regular
+ID,Idaho,16,regular
+IL,Illinois,17,regular
+IA,Iowa,19,regular
+KS,Kansas,20,regular
+KY,Kentucky,21,regular
+LA,Louisiana,22,regular
+ME,Maine,23,regular
+MA,Massachusetts,25,regular
+MI,Michigan,26,regular
+MN,Minnesota,27,regular
+MS,Mississippi,28,regular
+MT,Montana,30,regular
+NE,Nebraska,31,regular
+NH,New Hampshire,33,regular
+NJ,New Jersey,34,regular
+NM,New Mexico,35,regular
+NC,North Carolina,37,regular
+OH,Ohio,39,special
+OK,Oklahoma,40,regular
+OR,Oregon,41,regular
+RI,Rhode Island,44,regular
+SC,South Carolina,45,regular
+SD,South Dakota,46,regular
+TN,Tennessee,47,regular
+TX,Texas,48,regular
+VA,Virginia,51,regular
+WV,West Virginia,54,regular
+WY,Wyoming,56,regular
