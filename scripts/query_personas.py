@@ -35,8 +35,8 @@ SCHEMA = {
 }
 
 BUDGET_USD = 20.00
-CACHE = ROOT / "data" / "03_silicon" / "cache"
-OUTPUT = ROOT / "data" / "03_silicon"
+CACHE = ROOT / "data" / "03_silicon_sampled_data" / "cache"
+OUTPUT = ROOT / "data" / "03_silicon_sampled_data"
 spent = 0.0
 
 
