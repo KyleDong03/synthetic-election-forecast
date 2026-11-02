@@ -111,6 +111,19 @@ def to_responses_format(records):
     )
 
 
+# Keeps every answer field, so summaries can count Other and Would not vote without reading the cache.
+def to_answers_format(records):
+    return pl.DataFrame(records).select(
+        "race_id",
+        pl.col("persona_id"),
+        pl.col("model_requested").alias("model"),
+        "vote",
+        "confidence",
+        "track",
+        "attention",
+    )
+
+
 def main():
     CACHE.mkdir(parents=True, exist_ok=True)
     personas = pl.read_parquet(ROOT / "data" / "02_processed_data" / "personas.parquet")
@@ -122,6 +135,7 @@ def main():
     with ThreadPoolExecutor(max_workers=8) as pool:
         records = list(pool.map(run, jobs))
     to_responses_format(records).write_parquet(OUTPUT / "responses.parquet")
+    to_answers_format(records).write_parquet(OUTPUT / "answers.parquet")
     print(f"Spent ${spent:.4f}")
 
 
