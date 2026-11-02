@@ -1,0 +1,71 @@
+race_id,state,model,valid_answers,missing_answers,mean_confidence,median_confidence
+2026-AK-S-regular,Alaska,anthropic/claude-sonnet-5.5,25,0,78.28,80.0
+2026-AK-S-regular,Alaska,openai/gpt-6-luna,25,0,77.0,80.0
+2026-AL-S-regular,Alabama,anthropic/claude-sonnet-5.5,25,0,81.32,85.0
+2026-AL-S-regular,Alabama,openai/gpt-6-luna,25,0,77.4,75.0
+2026-AR-S-regular,Arkansas,anthropic/claude-sonnet-5.5,25,0,75.24,75.0
+2026-AR-S-regular,Arkansas,openai/gpt-6-luna,25,0,74.6,75.0
+2026-CO-S-regular,Colorado,anthropic/claude-sonnet-5.5,25,0,87.28,92.0
+2026-CO-S-regular,Colorado,openai/gpt-6-luna,25,0,82.72,85.0
+2026-DE-S-regular,Delaware,anthropic/claude-sonnet-5.5,25,0,81.72,88.0
+2026-DE-S-regular,Delaware,openai/gpt-6-luna,25,0,79.0,85.0
+2026-FL-S-special,Florida,anthropic/claude-sonnet-5.5,25,0,78.4,80.0
+2026-FL-S-special,Florida,openai/gpt-6-luna,25,0,77.0,75.0
+2026-GA-S-regular,Georgia,anthropic/claude-sonnet-5.5,25,0,82.12,85.0
+2026-GA-S-regular,Georgia,openai/gpt-6-luna,25,0,78.0,80.0
+2026-IA-S-regular,Iowa,anthropic/claude-sonnet-5.5,25,0,75.92,75.0
+2026-IA-S-regular,Iowa,openai/gpt-6-luna,25,0,74.2,75.0
+2026-ID-S-regular,Idaho,anthropic/claude-sonnet-5.5,25,0,81.08,85.0
+2026-ID-S-regular,Idaho,openai/gpt-6-luna,25,0,77.0,80.0
+2026-IL-S-regular,Illinois,anthropic/claude-sonnet-5.5,25,0,85.16,90.0
+2026-IL-S-regular,Illinois,openai/gpt-6-luna,25,0,80.4,90.0
+2026-KS-S-regular,Kansas,anthropic/claude-sonnet-5.5,25,0,76.4,75.0
+2026-KS-S-regular,Kansas,openai/gpt-6-luna,25,0,75.2,75.0
+2026-KY-S-regular,Kentucky,anthropic/claude-sonnet-5.5,25,0,79.24,85.0
+2026-KY-S-regular,Kentucky,openai/gpt-6-luna,25,0,76.68,80.0
+2026-LA-S-regular,Louisiana,anthropic/claude-sonnet-5.5,25,0,74.92,75.0
+2026-LA-S-regular,Louisiana,openai/gpt-6-luna,25,0,74.6,75.0
+2026-MA-S-regular,Massachusetts,anthropic/claude-sonnet-5.5,25,0,81.48,80.0
+2026-MA-S-regular,Massachusetts,openai/gpt-6-luna,25,0,78.2,75.0
+2026-ME-S-regular,Maine,anthropic/claude-sonnet-5.5,25,0,73.84,70.0
+2026-ME-S-regular,Maine,openai/gpt-6-luna,25,0,68.8,70.0
+2026-MI-S-regular,Michigan,anthropic/claude-sonnet-5.5,25,0,78.88,80.0
+2026-MI-S-regular,Michigan,openai/gpt-6-luna,25,0,73.2,75.0
+2026-MN-S-regular,Minnesota,anthropic/claude-sonnet-5.5,25,0,83.28,92.0
+2026-MN-S-regular,Minnesota,openai/gpt-6-luna,25,0,78.8,85.0
+2026-MS-S-regular,Mississippi,anthropic/claude-sonnet-5.5,25,0,85.16,85.0
+2026-MS-S-regular,Mississippi,openai/gpt-6-luna,25,0,79.6,85.0
+2026-MT-S-regular,Montana,anthropic/claude-sonnet-5.5,25,0,80.2,85.0
+2026-MT-S-regular,Montana,openai/gpt-6-luna,25,0,77.68,85.0
+2026-NC-S-regular,North Carolina,anthropic/claude-sonnet-5.5,25,0,76.64,75.0
+2026-NC-S-regular,North Carolina,openai/gpt-6-luna,25,0,76.8,75.0
+2026-NE-S-regular,Nebraska,anthropic/claude-sonnet-5.5,25,0,84.12,90.0
+2026-NE-S-regular,Nebraska,openai/gpt-6-luna,25,0,82.8,85.0
+2026-NH-S-regular,New Hampshire,anthropic/claude-sonnet-5.5,25,0,83.68,90.0
+2026-NH-S-regular,New Hampshire,openai/gpt-6-luna,25,0,79.4,85.0
+2026-NJ-S-regular,New Jersey,anthropic/claude-sonnet-5.5,25,0,83.64,88.0
+2026-NJ-S-regular,New Jersey,openai/gpt-6-luna,25,0,79.84,85.0
+2026-NM-S-regular,New Mexico,anthropic/claude-sonnet-5.5,25,0,82.68,88.0
+2026-NM-S-regular,New Mexico,openai/gpt-6-luna,25,0,77.4,85.0
+2026-OH-S-special,Ohio,anthropic/claude-sonnet-5.5,25,0,81.2,85.0
+2026-OH-S-special,Ohio,openai/gpt-6-luna,25,0,78.4,80.0
+2026-OK-S-regular,Oklahoma,anthropic/claude-sonnet-5.5,25,0,80.88,78.0
+2026-OK-S-regular,Oklahoma,openai/gpt-6-luna,25,0,80.2,80.0
+2026-OR-S-regular,Oregon,anthropic/claude-sonnet-5.5,25,0,81.0,85.0
+2026-OR-S-regular,Oregon,openai/gpt-6-luna,25,0,76.0,75.0
+2026-RI-S-regular,Rhode Island,anthropic/claude-sonnet-5.5,25,0,84.0,85.0
+2026-RI-S-regular,Rhode Island,openai/gpt-6-luna,25,0,78.6,80.0
+2026-SC-S-regular,South Carolina,anthropic/claude-sonnet-5.5,25,0,83.76,90.0
+2026-SC-S-regular,South Carolina,openai/gpt-6-luna,25,0,80.68,90.0
+2026-SD-S-regular,South Dakota,anthropic/claude-sonnet-5.5,25,0,83.4,80.0
+2026-SD-S-regular,South Dakota,openai/gpt-6-luna,25,0,80.8,85.0
+2026-TN-S-regular,Tennessee,anthropic/claude-sonnet-5.5,25,0,83.04,95.0
+2026-TN-S-regular,Tennessee,openai/gpt-6-luna,25,0,82.4,90.0
+2026-TX-S-regular,Texas,anthropic/claude-sonnet-5.5,25,0,73.2,70.0
+2026-TX-S-regular,Texas,openai/gpt-6-luna,25,0,71.2,75.0
+2026-VA-S-regular,Virginia,anthropic/claude-sonnet-5.5,25,0,78.36,80.0
+2026-VA-S-regular,Virginia,openai/gpt-6-luna,25,0,75.6,75.0
+2026-WV-S-regular,West Virginia,anthropic/claude-sonnet-5.5,25,0,81.6,85.0
+2026-WV-S-regular,West Virginia,openai/gpt-6-luna,25,0,79.0,80.0
+2026-WY-S-regular,Wyoming,anthropic/claude-sonnet-5.5,25,0,86.16,85.0
+2026-WY-S-regular,Wyoming,openai/gpt-6-luna,25,0,79.8,80.0
