@@ -1,0 +1,491 @@
+race_id,state,question,answer,share_a,share_b,model_a,model_b,difference_pp_a_minus_b
+2026-AK-S-regular,Alaska,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AK-S-regular,Alaska,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AK-S-regular,Alaska,attention,Not too closely,0.16,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AK-S-regular,Alaska,attention,Somewhat closely,0.72,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.000000000000007
+2026-AK-S-regular,Alaska,attention,Very closely,0.12,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,7.999999999999999
+2026-AK-S-regular,Alaska,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AK-S-regular,Alaska,track,Not sure,0.04,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-AK-S-regular,Alaska,track,Right direction,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-AK-S-regular,Alaska,track,Wrong track,0.96,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,24.0
+2026-AK-S-regular,Alaska,vote,Democratic,0.28,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AK-S-regular,Alaska,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AK-S-regular,Alaska,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-AK-S-regular,Alaska,vote,Republican,0.56,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-AK-S-regular,Alaska,vote,Would not vote,0.16,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,attention,Not at all,0.2,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,20.0
+2026-AL-S-regular,Alabama,attention,Not too closely,0.12,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-AL-S-regular,Alabama,attention,Somewhat closely,0.68,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,track,Not sure,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-AL-S-regular,Alabama,track,Right direction,0.08,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-15.999999999999998
+2026-AL-S-regular,Alabama,track,Wrong track,0.92,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,28.000000000000004
+2026-AL-S-regular,Alabama,vote,Democratic,0.28,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AL-S-regular,Alabama,vote,Republican,0.44,0.48,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-AL-S-regular,Alabama,vote,Would not vote,0.28,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-AR-S-regular,Arkansas,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AR-S-regular,Arkansas,attention,Not at all,0.04,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AR-S-regular,Arkansas,attention,Not too closely,0.28,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000002
+2026-AR-S-regular,Arkansas,attention,Somewhat closely,0.64,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-AR-S-regular,Arkansas,attention,Very closely,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-AR-S-regular,Arkansas,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AR-S-regular,Arkansas,track,Not sure,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-AR-S-regular,Arkansas,track,Right direction,0.0,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.0
+2026-AR-S-regular,Arkansas,track,Wrong track,1.0,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,28.000000000000004
+2026-AR-S-regular,Arkansas,vote,Democratic,0.36,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AR-S-regular,Arkansas,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AR-S-regular,Arkansas,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-AR-S-regular,Arkansas,vote,Republican,0.44,0.56,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.000000000000005
+2026-AR-S-regular,Arkansas,vote,Would not vote,0.2,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.000000000000002
+2026-CO-S-regular,Colorado,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-CO-S-regular,Colorado,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-CO-S-regular,Colorado,attention,Not too closely,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-CO-S-regular,Colorado,attention,Somewhat closely,0.76,0.96,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-19.999999999999996
+2026-CO-S-regular,Colorado,attention,Very closely,0.2,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,20.0
+2026-CO-S-regular,Colorado,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-CO-S-regular,Colorado,track,Not sure,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-CO-S-regular,Colorado,track,Right direction,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-CO-S-regular,Colorado,track,Wrong track,1.0,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.000000000000004
+2026-CO-S-regular,Colorado,vote,Democratic,0.56,0.56,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-CO-S-regular,Colorado,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-CO-S-regular,Colorado,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-CO-S-regular,Colorado,vote,Republican,0.4,0.4,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-CO-S-regular,Colorado,vote,Would not vote,0.04,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,attention,Not too closely,0.2,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.000000000000002
+2026-DE-S-regular,Delaware,attention,Somewhat closely,0.8,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000007
+2026-DE-S-regular,Delaware,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,track,Not sure,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-DE-S-regular,Delaware,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-DE-S-regular,Delaware,track,Wrong track,1.0,0.88,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-DE-S-regular,Delaware,vote,Democratic,0.56,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-DE-S-regular,Delaware,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,vote,Republican,0.32,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-DE-S-regular,Delaware,vote,Would not vote,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-FL-S-special,Florida,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-FL-S-special,Florida,attention,Not at all,0.08,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-FL-S-special,Florida,attention,Not too closely,0.28,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-FL-S-special,Florida,attention,Somewhat closely,0.56,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-FL-S-special,Florida,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-FL-S-special,Florida,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-FL-S-special,Florida,track,Not sure,0.08,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999996
+2026-FL-S-special,Florida,track,Right direction,0.08,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-FL-S-special,Florida,track,Wrong track,0.84,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-FL-S-special,Florida,vote,Democratic,0.4,0.4,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-FL-S-special,Florida,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-FL-S-special,Florida,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-FL-S-special,Florida,vote,Republican,0.4,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-FL-S-special,Florida,vote,Would not vote,0.2,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.000000000000002
+2026-GA-S-regular,Georgia,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-GA-S-regular,Georgia,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-GA-S-regular,Georgia,attention,Not too closely,0.16,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.000000000000001
+2026-GA-S-regular,Georgia,attention,Somewhat closely,0.52,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-28.000000000000004
+2026-GA-S-regular,Georgia,attention,Very closely,0.28,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,28.000000000000004
+2026-GA-S-regular,Georgia,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-GA-S-regular,Georgia,track,Not sure,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-GA-S-regular,Georgia,track,Right direction,0.0,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.0
+2026-GA-S-regular,Georgia,track,Wrong track,1.0,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,36.0
+2026-GA-S-regular,Georgia,vote,Democratic,0.56,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999925
+2026-GA-S-regular,Georgia,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-GA-S-regular,Georgia,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-GA-S-regular,Georgia,vote,Republican,0.28,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-GA-S-regular,Georgia,vote,Would not vote,0.16,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-IA-S-regular,Iowa,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-IA-S-regular,Iowa,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-IA-S-regular,Iowa,attention,Not too closely,0.08,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-15.999999999999998
+2026-IA-S-regular,Iowa,attention,Somewhat closely,0.8,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-IA-S-regular,Iowa,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-IA-S-regular,Iowa,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-IA-S-regular,Iowa,track,Not sure,0.0,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.0
+2026-IA-S-regular,Iowa,track,Right direction,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-IA-S-regular,Iowa,track,Wrong track,1.0,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,36.0
+2026-IA-S-regular,Iowa,vote,Democratic,0.4,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000002
+2026-IA-S-regular,Iowa,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-IA-S-regular,Iowa,vote,Other,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-IA-S-regular,Iowa,vote,Republican,0.56,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-IA-S-regular,Iowa,vote,Would not vote,0.04,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ID-S-regular,Idaho,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ID-S-regular,Idaho,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-ID-S-regular,Idaho,attention,Not too closely,0.36,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-ID-S-regular,Idaho,attention,Somewhat closely,0.56,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-15.999999999999993
+2026-ID-S-regular,Idaho,attention,Very closely,0.04,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ID-S-regular,Idaho,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ID-S-regular,Idaho,track,Not sure,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-ID-S-regular,Idaho,track,Right direction,0.04,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.000000000000004
+2026-ID-S-regular,Idaho,track,Wrong track,0.96,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,36.0
+2026-ID-S-regular,Idaho,vote,Democratic,0.52,0.56,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-ID-S-regular,Idaho,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ID-S-regular,Idaho,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-ID-S-regular,Idaho,vote,Republican,0.4,0.4,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ID-S-regular,Idaho,vote,Would not vote,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-IL-S-regular,Illinois,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-IL-S-regular,Illinois,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-IL-S-regular,Illinois,attention,Not too closely,0.24,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999982
+2026-IL-S-regular,Illinois,attention,Somewhat closely,0.6,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.000000000000007
+2026-IL-S-regular,Illinois,attention,Very closely,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-IL-S-regular,Illinois,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-IL-S-regular,Illinois,track,Not sure,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-IL-S-regular,Illinois,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-IL-S-regular,Illinois,track,Wrong track,1.0,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.000000000000004
+2026-IL-S-regular,Illinois,vote,Democratic,0.64,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-IL-S-regular,Illinois,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-IL-S-regular,Illinois,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-IL-S-regular,Illinois,vote,Republican,0.24,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-IL-S-regular,Illinois,vote,Would not vote,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-KS-S-regular,Kansas,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KS-S-regular,Kansas,attention,Not at all,0.08,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-KS-S-regular,Kansas,attention,Not too closely,0.32,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-KS-S-regular,Kansas,attention,Somewhat closely,0.52,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.0
+2026-KS-S-regular,Kansas,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-KS-S-regular,Kansas,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KS-S-regular,Kansas,track,Not sure,0.04,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-KS-S-regular,Kansas,track,Right direction,0.0,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-KS-S-regular,Kansas,track,Wrong track,0.96,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,31.999999999999996
+2026-KS-S-regular,Kansas,vote,Democratic,0.28,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KS-S-regular,Kansas,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KS-S-regular,Kansas,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KS-S-regular,Kansas,vote,Republican,0.52,0.56,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-KS-S-regular,Kansas,vote,Would not vote,0.2,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.000000000000001
+2026-KY-S-regular,Kentucky,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KY-S-regular,Kentucky,attention,Not at all,0.12,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999996
+2026-KY-S-regular,Kentucky,attention,Not too closely,0.28,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000002
+2026-KY-S-regular,Kentucky,attention,Somewhat closely,0.6,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-KY-S-regular,Kentucky,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KY-S-regular,Kentucky,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KY-S-regular,Kentucky,track,Not sure,0.04,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.999999999999999
+2026-KY-S-regular,Kentucky,track,Right direction,0.12,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.000000000000002
+2026-KY-S-regular,Kentucky,track,Wrong track,0.84,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,15.999999999999993
+2026-KY-S-regular,Kentucky,vote,Democratic,0.44,0.44,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KY-S-regular,Kentucky,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KY-S-regular,Kentucky,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-KY-S-regular,Kentucky,vote,Republican,0.4,0.4,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-KY-S-regular,Kentucky,vote,Would not vote,0.16,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.000000000000001
+2026-LA-S-regular,Louisiana,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-LA-S-regular,Louisiana,attention,Not at all,0.12,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999996
+2026-LA-S-regular,Louisiana,attention,Not too closely,0.24,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-LA-S-regular,Louisiana,attention,Somewhat closely,0.64,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-LA-S-regular,Louisiana,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-LA-S-regular,Louisiana,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-LA-S-regular,Louisiana,track,Not sure,0.0,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.0
+2026-LA-S-regular,Louisiana,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-LA-S-regular,Louisiana,track,Wrong track,1.0,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,24.0
+2026-LA-S-regular,Louisiana,vote,Democratic,0.4,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-LA-S-regular,Louisiana,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-LA-S-regular,Louisiana,vote,Other,0.08,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-LA-S-regular,Louisiana,vote,Republican,0.4,0.48,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-LA-S-regular,Louisiana,vote,Would not vote,0.12,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999996
+2026-MA-S-regular,Massachusetts,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MA-S-regular,Massachusetts,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-MA-S-regular,Massachusetts,attention,Not too closely,0.24,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-MA-S-regular,Massachusetts,attention,Somewhat closely,0.68,0.88,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-19.999999999999996
+2026-MA-S-regular,Massachusetts,attention,Very closely,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-MA-S-regular,Massachusetts,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MA-S-regular,Massachusetts,track,Not sure,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-MA-S-regular,Massachusetts,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-MA-S-regular,Massachusetts,track,Wrong track,1.0,0.88,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-MA-S-regular,Massachusetts,vote,Democratic,0.6,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MA-S-regular,Massachusetts,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MA-S-regular,Massachusetts,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MA-S-regular,Massachusetts,vote,Republican,0.24,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-MA-S-regular,Massachusetts,vote,Would not vote,0.16,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-ME-S-regular,Maine,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ME-S-regular,Maine,attention,Not at all,0.12,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ME-S-regular,Maine,attention,Not too closely,0.12,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,7.999999999999999
+2026-ME-S-regular,Maine,attention,Somewhat closely,0.56,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-27.999999999999993
+2026-ME-S-regular,Maine,attention,Very closely,0.2,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,20.0
+2026-ME-S-regular,Maine,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ME-S-regular,Maine,track,Not sure,0.0,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-28.000000000000004
+2026-ME-S-regular,Maine,track,Right direction,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ME-S-regular,Maine,track,Wrong track,1.0,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,28.000000000000004
+2026-ME-S-regular,Maine,vote,Democratic,0.56,0.48,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000007
+2026-ME-S-regular,Maine,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ME-S-regular,Maine,vote,Other,0.04,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-ME-S-regular,Maine,vote,Republican,0.24,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-ME-S-regular,Maine,vote,Would not vote,0.16,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.000000000000001
+2026-MI-S-regular,Michigan,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MI-S-regular,Michigan,attention,Not at all,0.04,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MI-S-regular,Michigan,attention,Not too closely,0.24,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.000000000000002
+2026-MI-S-regular,Michigan,attention,Somewhat closely,0.6,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-MI-S-regular,Michigan,attention,Very closely,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-MI-S-regular,Michigan,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MI-S-regular,Michigan,track,Not sure,0.0,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-MI-S-regular,Michigan,track,Right direction,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-MI-S-regular,Michigan,track,Wrong track,1.0,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,31.999999999999996
+2026-MI-S-regular,Michigan,vote,Democratic,0.44,0.48,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-MI-S-regular,Michigan,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MI-S-regular,Michigan,vote,Other,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-MI-S-regular,Michigan,vote,Republican,0.32,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-MI-S-regular,Michigan,vote,Would not vote,0.24,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,15.999999999999998
+2026-MN-S-regular,Minnesota,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MN-S-regular,Minnesota,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-MN-S-regular,Minnesota,attention,Not too closely,0.16,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.999999999999999
+2026-MN-S-regular,Minnesota,attention,Somewhat closely,0.68,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-MN-S-regular,Minnesota,attention,Very closely,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-MN-S-regular,Minnesota,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MN-S-regular,Minnesota,track,Not sure,0.0,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-MN-S-regular,Minnesota,track,Right direction,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-MN-S-regular,Minnesota,track,Wrong track,1.0,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,31.999999999999996
+2026-MN-S-regular,Minnesota,vote,Democratic,0.4,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-MN-S-regular,Minnesota,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MN-S-regular,Minnesota,vote,Other,0.04,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-MN-S-regular,Minnesota,vote,Republican,0.48,0.48,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MN-S-regular,Minnesota,vote,Would not vote,0.08,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MS-S-regular,Mississippi,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MS-S-regular,Mississippi,attention,Not at all,0.16,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-MS-S-regular,Mississippi,attention,Not too closely,0.12,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-MS-S-regular,Mississippi,attention,Somewhat closely,0.6,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-MS-S-regular,Mississippi,attention,Very closely,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-MS-S-regular,Mississippi,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MS-S-regular,Mississippi,track,Not sure,0.08,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-15.999999999999998
+2026-MS-S-regular,Mississippi,track,Right direction,0.12,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.0
+2026-MS-S-regular,Mississippi,track,Wrong track,0.8,0.4,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,40.0
+2026-MS-S-regular,Mississippi,vote,Democratic,0.36,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,7.9999999999999964
+2026-MS-S-regular,Mississippi,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MS-S-regular,Mississippi,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-MS-S-regular,Mississippi,vote,Republican,0.48,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-MS-S-regular,Mississippi,vote,Would not vote,0.16,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MT-S-regular,Montana,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MT-S-regular,Montana,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MT-S-regular,Montana,attention,Not too closely,0.2,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MT-S-regular,Montana,attention,Somewhat closely,0.6,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.000000000000007
+2026-MT-S-regular,Montana,attention,Very closely,0.2,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,20.0
+2026-MT-S-regular,Montana,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MT-S-regular,Montana,track,Not sure,0.04,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-MT-S-regular,Montana,track,Right direction,0.08,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.0
+2026-MT-S-regular,Montana,track,Wrong track,0.88,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,36.0
+2026-MT-S-regular,Montana,vote,Democratic,0.28,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.000000000000002
+2026-MT-S-regular,Montana,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-MT-S-regular,Montana,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-MT-S-regular,Montana,vote,Republican,0.64,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-MT-S-regular,Montana,vote,Would not vote,0.08,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-NC-S-regular,North Carolina,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NC-S-regular,North Carolina,attention,Not at all,0.12,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,7.999999999999999
+2026-NC-S-regular,North Carolina,attention,Not too closely,0.2,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NC-S-regular,North Carolina,attention,Somewhat closely,0.6,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.000000000000004
+2026-NC-S-regular,North Carolina,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-NC-S-regular,North Carolina,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NC-S-regular,North Carolina,track,Not sure,0.0,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.0
+2026-NC-S-regular,North Carolina,track,Right direction,0.04,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.999999999999999
+2026-NC-S-regular,North Carolina,track,Wrong track,0.96,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,24.0
+2026-NC-S-regular,North Carolina,vote,Democratic,0.44,0.4,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999982
+2026-NC-S-regular,North Carolina,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NC-S-regular,North Carolina,vote,Other,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-NC-S-regular,North Carolina,vote,Republican,0.36,0.48,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-NC-S-regular,North Carolina,vote,Would not vote,0.16,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.000000000000001
+2026-NE-S-regular,Nebraska,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,attention,Not too closely,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-NE-S-regular,Nebraska,attention,Somewhat closely,0.72,1.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-28.000000000000004
+2026-NE-S-regular,Nebraska,attention,Very closely,0.16,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.0
+2026-NE-S-regular,Nebraska,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,track,Not sure,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,track,Right direction,0.08,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.000000000000002
+2026-NE-S-regular,Nebraska,track,Wrong track,0.92,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-NE-S-regular,Nebraska,vote,Democratic,0.36,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,vote,Republican,0.64,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NE-S-regular,Nebraska,vote,Would not vote,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,attention,Not too closely,0.04,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-NH-S-regular,New Hampshire,attention,Somewhat closely,0.84,0.92,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.000000000000007
+2026-NH-S-regular,New Hampshire,attention,Very closely,0.12,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-NH-S-regular,New Hampshire,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,track,Not sure,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-NH-S-regular,New Hampshire,track,Wrong track,1.0,0.92,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,7.9999999999999964
+2026-NH-S-regular,New Hampshire,vote,Democratic,0.76,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,vote,Republican,0.24,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NH-S-regular,New Hampshire,vote,Would not vote,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NJ-S-regular,New Jersey,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NJ-S-regular,New Jersey,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-NJ-S-regular,New Jersey,attention,Not too closely,0.32,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-NJ-S-regular,New Jersey,attention,Somewhat closely,0.64,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.000000000000004
+2026-NJ-S-regular,New Jersey,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NJ-S-regular,New Jersey,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NJ-S-regular,New Jersey,track,Not sure,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-NJ-S-regular,New Jersey,track,Right direction,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-NJ-S-regular,New Jersey,track,Wrong track,1.0,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.000000000000004
+2026-NJ-S-regular,New Jersey,vote,Democratic,0.6,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NJ-S-regular,New Jersey,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NJ-S-regular,New Jersey,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NJ-S-regular,New Jersey,vote,Republican,0.24,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-NJ-S-regular,New Jersey,vote,Would not vote,0.16,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.000000000000001
+2026-NM-S-regular,New Mexico,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NM-S-regular,New Mexico,attention,Not at all,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-NM-S-regular,New Mexico,attention,Not too closely,0.24,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NM-S-regular,New Mexico,attention,Somewhat closely,0.6,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.000000000000004
+2026-NM-S-regular,New Mexico,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-NM-S-regular,New Mexico,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NM-S-regular,New Mexico,track,Not sure,0.0,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.0
+2026-NM-S-regular,New Mexico,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-NM-S-regular,New Mexico,track,Wrong track,1.0,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,24.0
+2026-NM-S-regular,New Mexico,vote,Democratic,0.6,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-NM-S-regular,New Mexico,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NM-S-regular,New Mexico,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NM-S-regular,New Mexico,vote,Republican,0.24,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-NM-S-regular,New Mexico,vote,Would not vote,0.16,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-OH-S-special,Ohio,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OH-S-special,Ohio,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OH-S-special,Ohio,attention,Not too closely,0.2,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.000000000000001
+2026-OH-S-special,Ohio,attention,Somewhat closely,0.72,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-OH-S-special,Ohio,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-OH-S-special,Ohio,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OH-S-special,Ohio,track,Not sure,0.0,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-OH-S-special,Ohio,track,Right direction,0.28,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000002
+2026-OH-S-special,Ohio,track,Wrong track,0.72,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-OH-S-special,Ohio,vote,Democratic,0.36,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999982
+2026-OH-S-special,Ohio,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OH-S-special,Ohio,vote,Other,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-OH-S-special,Ohio,vote,Republican,0.6,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OH-S-special,Ohio,vote,Would not vote,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-OK-S-regular,Oklahoma,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OK-S-regular,Oklahoma,attention,Not at all,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-OK-S-regular,Oklahoma,attention,Not too closely,0.28,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-OK-S-regular,Oklahoma,attention,Somewhat closely,0.56,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-OK-S-regular,Oklahoma,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-OK-S-regular,Oklahoma,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OK-S-regular,Oklahoma,track,Not sure,0.0,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-OK-S-regular,Oklahoma,track,Right direction,0.0,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-OK-S-regular,Oklahoma,track,Wrong track,1.0,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,40.0
+2026-OK-S-regular,Oklahoma,vote,Democratic,0.4,0.44,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-OK-S-regular,Oklahoma,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OK-S-regular,Oklahoma,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OK-S-regular,Oklahoma,vote,Republican,0.36,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.000000000000004
+2026-OK-S-regular,Oklahoma,vote,Would not vote,0.24,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,20.0
+2026-OR-S-regular,Oregon,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OR-S-regular,Oregon,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-OR-S-regular,Oregon,attention,Not too closely,0.24,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999982
+2026-OR-S-regular,Oregon,attention,Somewhat closely,0.64,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.000000000000004
+2026-OR-S-regular,Oregon,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-OR-S-regular,Oregon,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OR-S-regular,Oregon,track,Not sure,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-OR-S-regular,Oregon,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-OR-S-regular,Oregon,track,Wrong track,1.0,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,19.999999999999996
+2026-OR-S-regular,Oregon,vote,Democratic,0.4,0.44,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-OR-S-regular,Oregon,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-OR-S-regular,Oregon,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-OR-S-regular,Oregon,vote,Republican,0.44,0.48,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-OR-S-regular,Oregon,vote,Would not vote,0.16,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-RI-S-regular,Rhode Island,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-RI-S-regular,Rhode Island,attention,Not at all,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-RI-S-regular,Rhode Island,attention,Not too closely,0.08,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-RI-S-regular,Rhode Island,attention,Somewhat closely,0.88,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.000000000000004
+2026-RI-S-regular,Rhode Island,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-RI-S-regular,Rhode Island,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-RI-S-regular,Rhode Island,track,Not sure,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-RI-S-regular,Rhode Island,track,Right direction,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-RI-S-regular,Rhode Island,track,Wrong track,1.0,0.96,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-RI-S-regular,Rhode Island,vote,Democratic,0.76,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-RI-S-regular,Rhode Island,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-RI-S-regular,Rhode Island,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-RI-S-regular,Rhode Island,vote,Republican,0.16,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-RI-S-regular,Rhode Island,vote,Would not vote,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-SC-S-regular,South Carolina,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SC-S-regular,South Carolina,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SC-S-regular,South Carolina,attention,Not too closely,0.2,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SC-S-regular,South Carolina,attention,Somewhat closely,0.8,0.8,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SC-S-regular,South Carolina,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SC-S-regular,South Carolina,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SC-S-regular,South Carolina,track,Not sure,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-SC-S-regular,South Carolina,track,Right direction,0.04,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-32.0
+2026-SC-S-regular,South Carolina,track,Wrong track,0.96,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,36.0
+2026-SC-S-regular,South Carolina,vote,Democratic,0.32,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999982
+2026-SC-S-regular,South Carolina,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SC-S-regular,South Carolina,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-SC-S-regular,South Carolina,vote,Republican,0.52,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.000000000000004
+2026-SC-S-regular,South Carolina,vote,Would not vote,0.16,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.0
+2026-SD-S-regular,South Dakota,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,attention,Not too closely,0.12,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,attention,Somewhat closely,0.8,0.88,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-SD-S-regular,South Dakota,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-SD-S-regular,South Dakota,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,track,Not sure,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,track,Right direction,0.24,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,track,Wrong track,0.76,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,vote,Democratic,0.16,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.000000000000001
+2026-SD-S-regular,South Dakota,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,vote,Republican,0.76,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-SD-S-regular,South Dakota,vote,Would not vote,0.08,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-TN-S-regular,Tennessee,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TN-S-regular,Tennessee,attention,Not at all,0.04,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TN-S-regular,Tennessee,attention,Not too closely,0.28,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000002
+2026-TN-S-regular,Tennessee,attention,Somewhat closely,0.68,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-TN-S-regular,Tennessee,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TN-S-regular,Tennessee,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TN-S-regular,Tennessee,track,Not sure,0.0,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-TN-S-regular,Tennessee,track,Right direction,0.08,0.28,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-20.0
+2026-TN-S-regular,Tennessee,track,Wrong track,0.92,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,32.00000000000001
+2026-TN-S-regular,Tennessee,vote,Democratic,0.36,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,3.9999999999999982
+2026-TN-S-regular,Tennessee,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TN-S-regular,Tennessee,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-TN-S-regular,Tennessee,vote,Republican,0.56,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999925
+2026-TN-S-regular,Tennessee,vote,Would not vote,0.08,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-TX-S-regular,Texas,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TX-S-regular,Texas,attention,Not at all,0.12,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,7.999999999999999
+2026-TX-S-regular,Texas,attention,Not too closely,0.4,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.000000000000002
+2026-TX-S-regular,Texas,attention,Somewhat closely,0.4,0.64,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.0
+2026-TX-S-regular,Texas,attention,Very closely,0.08,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,8.0
+2026-TX-S-regular,Texas,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TX-S-regular,Texas,track,Not sure,0.08,0.2,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.000000000000002
+2026-TX-S-regular,Texas,track,Right direction,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-TX-S-regular,Texas,track,Wrong track,0.92,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.000000000000004
+2026-TX-S-regular,Texas,vote,Democratic,0.48,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-TX-S-regular,Texas,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-TX-S-regular,Texas,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-TX-S-regular,Texas,vote,Republican,0.28,0.32,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999982
+2026-TX-S-regular,Texas,vote,Would not vote,0.24,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-VA-S-regular,Virginia,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-VA-S-regular,Virginia,attention,Not at all,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-VA-S-regular,Virginia,attention,Not too closely,0.24,0.12,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-VA-S-regular,Virginia,attention,Somewhat closely,0.76,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-7.9999999999999964
+2026-VA-S-regular,Virginia,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-VA-S-regular,Virginia,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-VA-S-regular,Virginia,track,Not sure,0.0,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-16.0
+2026-VA-S-regular,Virginia,track,Right direction,0.0,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-8.0
+2026-VA-S-regular,Virginia,track,Wrong track,1.0,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,24.0
+2026-VA-S-regular,Virginia,vote,Democratic,0.76,0.72,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0000000000000036
+2026-VA-S-regular,Virginia,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-VA-S-regular,Virginia,vote,Other,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-VA-S-regular,Virginia,vote,Republican,0.16,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-VA-S-regular,Virginia,vote,Would not vote,0.08,0.08,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,attention,Not too closely,0.16,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,attention,Somewhat closely,0.8,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-3.9999999999999925
+2026-WV-S-regular,West Virginia,attention,Very closely,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-WV-S-regular,West Virginia,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,track,Not sure,0.04,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-WV-S-regular,West Virginia,track,Right direction,0.16,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,track,Wrong track,0.8,0.68,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.0
+2026-WV-S-regular,West Virginia,vote,Democratic,0.24,0.24,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WV-S-regular,West Virginia,vote,Republican,0.72,0.76,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-WV-S-regular,West Virginia,vote,Would not vote,0.04,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,4.0
+2026-WY-S-regular,Wyoming,attention,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WY-S-regular,Wyoming,attention,Not at all,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WY-S-regular,Wyoming,attention,Not too closely,0.28,0.16,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,12.000000000000002
+2026-WY-S-regular,Wyoming,attention,Somewhat closely,0.72,0.84,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-WY-S-regular,Wyoming,attention,Very closely,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WY-S-regular,Wyoming,track,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WY-S-regular,Wyoming,track,Not sure,0.0,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0
+2026-WY-S-regular,Wyoming,track,Right direction,0.12,0.36,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-24.0
+2026-WY-S-regular,Wyoming,track,Wrong track,0.88,0.6,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,28.000000000000004
+2026-WY-S-regular,Wyoming,vote,Democratic,0.32,0.44,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-12.0
+2026-WY-S-regular,Wyoming,vote,Missing,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WY-S-regular,Wyoming,vote,Other,0.0,0.0,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,0.0
+2026-WY-S-regular,Wyoming,vote,Republican,0.48,0.52,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,-4.0000000000000036
+2026-WY-S-regular,Wyoming,vote,Would not vote,0.2,0.04,anthropic/claude-sonnet-5.5,openai/gpt-6-luna,16.0
