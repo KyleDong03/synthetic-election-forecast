@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2026 U.S. Senate forecast</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="website_files/libs/clipboard/clipboard.min.js"></script>
+<script src="website_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="website_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="website_files/libs/quarto-html/popper.min.js"></script>
+<script src="website_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="website_files/libs/quarto-html/anchor.min.js"></script>
+<link href="website_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="website_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="website_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="website_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="website_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">2026 U.S. Senate forecast</h1>
+<p class="subtitle lead">Synthetic results from two large language models, used to predict the 2026 U.S. Senate election. Based upon the 2025 Cooperative Election Study (CES) and a set of 25 synthetic personas per Senate state. These results are synthetic, not a poll, and they are not the actual election outcome.</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>We forecast the 2026 U.S. Senate election, comprising Senate elections in 33 states and special Senate elections in 2 states. The 2025 CES (<a href="https://doi.org/10.7910/DVN/DFUGJR">Schaffner, Pope, and Shih (2026)</a>) was used to create 25 synthetic personas per Senate state, and then 2 large language models were queried to forecast the votes for each race.</p>
+<p><img src="figures/seats.png" class="img-fluid" alt="Bar chart of the number of Senate seats each model gives to the Democrats and to the Republicans"> Note that the Claude Sonnet 5.5 model gives a total of 33 races won instead of 35, due to 2 races being tied.</p>
+<section id="would-you-vote-for-the-democratic-candidate-the-republican-candidate-someone-else-or-would-you-not-vote" class="level2">
+<h2 class="anchored" data-anchor-id="would-you-vote-for-the-democratic-candidate-the-republican-candidate-someone-else-or-would-you-not-vote">Would you vote for the Democratic candidate, the Republican candidate, someone else, or would you not vote?</h2>
+<p>Each race is represented by a donut chart, showing the distribution of votes among the Democratic, Republican, and Other categories. Each race is made up of 25 synthetic personas, which were constructed by taking weighted samples of characteristics from the 2025 CES.</p>
+<div class="race-key">
+<span class="key-item"><span class="key-dot dem"></span>Democratic</span><span class="key-item"><span class="key-dot rep"></span>Republican</span><span class="key-item"><span class="key-dot other"></span>Other</span>
+</div>
+<div class="race-grid">
+<p><img src="figures/2026-AL-S-regular.png" class="img-fluid" alt="Donut charts for Alabama"></p>
+<p><img src="figures/2026-AK-S-regular.png" class="img-fluid" alt="Donut charts for Alaska"></p>
+<p><img src="figures/2026-AR-S-regular.png" class="img-fluid" alt="Donut charts for Arkansas"></p>
+<p><img src="figures/2026-CO-S-regular.png" class="img-fluid" alt="Donut charts for Colorado"></p>
+<p><img src="figures/2026-DE-S-regular.png" class="img-fluid" alt="Donut charts for Delaware"></p>
+<p><img src="figures/2026-FL-S-special.png" class="img-fluid" alt="Donut charts for Florida (special election)"></p>
+<p><img src="figures/2026-GA-S-regular.png" class="img-fluid" alt="Donut charts for Georgia"></p>
+<p><img src="figures/2026-ID-S-regular.png" class="img-fluid" alt="Donut charts for Idaho"></p>
+<p><img src="figures/2026-IL-S-regular.png" class="img-fluid" alt="Donut charts for Illinois"></p>
+<p><img src="figures/2026-IA-S-regular.png" class="img-fluid" alt="Donut charts for Iowa"></p>
+<p><img src="figures/2026-KS-S-regular.png" class="img-fluid" alt="Donut charts for Kansas"></p>
+<p><img src="figures/2026-KY-S-regular.png" class="img-fluid" alt="Donut charts for Kentucky"></p>
+<p><img src="figures/2026-LA-S-regular.png" class="img-fluid" alt="Donut charts for Louisiana"></p>
+<p><img src="figures/2026-ME-S-regular.png" class="img-fluid" alt="Donut charts for Maine"></p>
+<p><img src="figures/2026-MA-S-regular.png" class="img-fluid" alt="Donut charts for Massachusetts"></p>
+<p><img src="figures/2026-MI-S-regular.png" class="img-fluid" alt="Donut charts for Michigan"></p>
+<p><img src="figures/2026-MN-S-regular.png" class="img-fluid" alt="Donut charts for Minnesota"></p>
+<p><img src="figures/2026-MS-S-regular.png" class="img-fluid" alt="Donut charts for Mississippi"></p>
+<p><img src="figures/2026-MT-S-regular.png" class="img-fluid" alt="Donut charts for Montana"></p>
+<p><img src="figures/2026-NE-S-regular.png" class="img-fluid" alt="Donut charts for Nebraska"></p>
+<p><img src="figures/2026-NH-S-regular.png" class="img-fluid" alt="Donut charts for New Hampshire"></p>
+<p><img src="figures/2026-NJ-S-regular.png" class="img-fluid" alt="Donut charts for New Jersey"></p>
+<p><img src="figures/2026-NM-S-regular.png" class="img-fluid" alt="Donut charts for New Mexico"></p>
+<p><img src="figures/2026-NC-S-regular.png" class="img-fluid" alt="Donut charts for North Carolina"></p>
+<p><img src="figures/2026-OH-S-special.png" class="img-fluid" alt="Donut charts for Ohio (special election)"></p>
+<p><img src="figures/2026-OK-S-regular.png" class="img-fluid" alt="Donut charts for Oklahoma"></p>
+<p><img src="figures/2026-OR-S-regular.png" class="img-fluid" alt="Donut charts for Oregon"></p>
+<p><img src="figures/2026-RI-S-regular.png" class="img-fluid" alt="Donut charts for Rhode Island"></p>
+<p><img src="figures/2026-SC-S-regular.png" class="img-fluid" alt="Donut charts for South Carolina"></p>
+<p><img src="figures/2026-SD-S-regular.png" class="img-fluid" alt="Donut charts for South Dakota"></p>
+<p><img src="figures/2026-TN-S-regular.png" class="img-fluid" alt="Donut charts for Tennessee"></p>
+<p><img src="figures/2026-TX-S-regular.png" class="img-fluid" alt="Donut charts for Texas"></p>
+<p><img src="figures/2026-VA-S-regular.png" class="img-fluid" alt="Donut charts for Virginia"></p>
+<p><img src="figures/2026-WV-S-regular.png" class="img-fluid" alt="Donut charts for West Virginia"></p>
+<p><img src="figures/2026-WY-S-regular.png" class="img-fluid" alt="Donut charts for Wyoming"></p>
+</div>
+<table class="forecast">
+<thead>
+<tr>
+<th rowspan="2">
+State
+</th>
+<th colspan="4">
+Claude Sonnet 5.5
+</th>
+<th rowspan="2" class="spacer">
+</th>
+<th colspan="4">
+GPT-6 Luna
+</th>
+</tr>
+<tr>
+<th class="dem">
+Democratic
+</th>
+<th class="rep">
+Republican
+</th>
+<th class="other">
+Other
+</th>
+<th class="wnv">
+Would not vote
+</th>
+<th class="dem">
+Democratic
+</th>
+<th class="rep">
+Republican
+</th>
+<th class="other">
+Other
+</th>
+<th class="wnv">
+Would not vote
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Alabama
+</td>
+<td class="dem">
+38.9%
+</td>
+<td class="rep">
+61.1%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+7
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+36.8%
+</td>
+<td class="rep">
+63.2%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+6
+</td>
+</tr>
+<tr>
+<td>
+Alaska
+</td>
+<td class="dem">
+33.3%
+</td>
+<td class="rep">
+66.7%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+33.3%
+</td>
+<td class="rep">
+61.9%
+</td>
+<td class="other">
+4.8%
+</td>
+<td class="wnv">
+4
+</td>
+</tr>
+<tr>
+<td>
+Arkansas
+</td>
+<td class="dem">
+45.0%
+</td>
+<td class="rep">
+55.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+5
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+39.1%
+</td>
+<td class="rep">
+60.9%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+</tr>
+<tr>
+<td>
+Colorado
+</td>
+<td class="dem">
+58.3%
+</td>
+<td class="rep">
+41.7%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+58.3%
+</td>
+<td class="rep">
+41.7%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Delaware
+</td>
+<td class="dem">
+63.6%
+</td>
+<td class="rep">
+36.4%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+3
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+68.0%
+</td>
+<td class="rep">
+32.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+Florida
+</td>
+<td class="dem">
+50.0%
+</td>
+<td class="rep">
+50.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+5
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+43.5%
+</td>
+<td class="rep">
+56.5%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+</tr>
+<tr>
+<td>
+Georgia
+</td>
+<td class="dem">
+66.7%
+</td>
+<td class="rep">
+33.3%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+65.2%
+</td>
+<td class="rep">
+34.8%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+</tr>
+<tr>
+<td>
+Idaho
+</td>
+<td class="dem">
+56.5%
+</td>
+<td class="rep">
+43.5%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+56.0%
+</td>
+<td class="rep">
+40.0%
+</td>
+<td class="other">
+4.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+Illinois
+</td>
+<td class="dem">
+72.7%
+</td>
+<td class="rep">
+27.3%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+3
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+72.0%
+</td>
+<td class="rep">
+28.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+Iowa
+</td>
+<td class="dem">
+41.7%
+</td>
+<td class="rep">
+58.3%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+33.3%
+</td>
+<td class="rep">
+54.2%
+</td>
+<td class="other">
+12.5%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Kansas
+</td>
+<td class="dem">
+35.0%
+</td>
+<td class="rep">
+65.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+5
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+33.3%
+</td>
+<td class="rep">
+66.7%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+</tr>
+<tr>
+<td>
+Kentucky
+</td>
+<td class="dem">
+52.4%
+</td>
+<td class="rep">
+47.6%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+50.0%
+</td>
+<td class="rep">
+45.5%
+</td>
+<td class="other">
+4.5%
+</td>
+<td class="wnv">
+3
+</td>
+</tr>
+<tr>
+<td>
+Louisiana
+</td>
+<td class="dem">
+45.5%
+</td>
+<td class="rep">
+45.5%
+</td>
+<td class="other">
+9.1%
+</td>
+<td class="wnv">
+3
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+39.1%
+</td>
+<td class="rep">
+52.2%
+</td>
+<td class="other">
+8.7%
+</td>
+<td class="wnv">
+2
+</td>
+</tr>
+<tr>
+<td>
+Maine
+</td>
+<td class="dem">
+66.7%
+</td>
+<td class="rep">
+28.6%
+</td>
+<td class="other">
+4.8%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+54.5%
+</td>
+<td class="rep">
+27.3%
+</td>
+<td class="other">
+18.2%
+</td>
+<td class="wnv">
+3
+</td>
+</tr>
+<tr>
+<td>
+Massachusetts
+</td>
+<td class="dem">
+71.4%
+</td>
+<td class="rep">
+28.6%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+62.5%
+</td>
+<td class="rep">
+37.5%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Michigan
+</td>
+<td class="dem">
+57.9%
+</td>
+<td class="rep">
+42.1%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+6
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+52.2%
+</td>
+<td class="rep">
+39.1%
+</td>
+<td class="other">
+8.7%
+</td>
+<td class="wnv">
+2
+</td>
+</tr>
+<tr>
+<td>
+Minnesota
+</td>
+<td class="dem">
+43.5%
+</td>
+<td class="rep">
+52.2%
+</td>
+<td class="other">
+4.3%
+</td>
+<td class="wnv">
+2
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+39.1%
+</td>
+<td class="rep">
+52.2%
+</td>
+<td class="other">
+8.7%
+</td>
+<td class="wnv">
+2
+</td>
+</tr>
+<tr>
+<td>
+Mississippi
+</td>
+<td class="dem">
+42.9%
+</td>
+<td class="rep">
+57.1%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+33.3%
+</td>
+<td class="rep">
+61.9%
+</td>
+<td class="other">
+4.8%
+</td>
+<td class="wnv">
+4
+</td>
+</tr>
+<tr>
+<td>
+Montana
+</td>
+<td class="dem">
+30.4%
+</td>
+<td class="rep">
+69.6%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+16.7%
+</td>
+<td class="rep">
+79.2%
+</td>
+<td class="other">
+4.2%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Nebraska
+</td>
+<td class="dem">
+36.0%
+</td>
+<td class="rep">
+64.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+36.0%
+</td>
+<td class="rep">
+64.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+New Hampshire
+</td>
+<td class="dem">
+76.0%
+</td>
+<td class="rep">
+24.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+76.0%
+</td>
+<td class="rep">
+24.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+New Jersey
+</td>
+<td class="dem">
+71.4%
+</td>
+<td class="rep">
+28.6%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+68.2%
+</td>
+<td class="rep">
+31.8%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+3
+</td>
+</tr>
+<tr>
+<td>
+New Mexico
+</td>
+<td class="dem">
+71.4%
+</td>
+<td class="rep">
+28.6%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+75.0%
+</td>
+<td class="rep">
+25.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+North Carolina
+</td>
+<td class="dem">
+52.4%
+</td>
+<td class="rep">
+42.9%
+</td>
+<td class="other">
+4.8%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+45.5%
+</td>
+<td class="rep">
+54.5%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+3
+</td>
+</tr>
+<tr>
+<td>
+Ohio
+</td>
+<td class="dem">
+37.5%
+</td>
+<td class="rep">
+62.5%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+32.0%
+</td>
+<td class="rep">
+60.0%
+</td>
+<td class="other">
+8.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+Oklahoma
+</td>
+<td class="dem">
+52.6%
+</td>
+<td class="rep">
+47.4%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+6
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+45.8%
+</td>
+<td class="rep">
+54.2%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Oregon
+</td>
+<td class="dem">
+47.6%
+</td>
+<td class="rep">
+52.4%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+45.8%
+</td>
+<td class="rep">
+50.0%
+</td>
+<td class="other">
+4.2%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Rhode Island
+</td>
+<td class="dem">
+82.6%
+</td>
+<td class="rep">
+17.4%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+84.0%
+</td>
+<td class="rep">
+16.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+South Carolina
+</td>
+<td class="dem">
+38.1%
+</td>
+<td class="rep">
+61.9%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+4
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+28.0%
+</td>
+<td class="rep">
+68.0%
+</td>
+<td class="other">
+4.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+South Dakota
+</td>
+<td class="dem">
+17.4%
+</td>
+<td class="rep">
+82.6%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+20.8%
+</td>
+<td class="rep">
+79.2%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Tennessee
+</td>
+<td class="dem">
+39.1%
+</td>
+<td class="rep">
+60.9%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+33.3%
+</td>
+<td class="rep">
+62.5%
+</td>
+<td class="other">
+4.2%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+<tr>
+<td>
+Texas
+</td>
+<td class="dem">
+63.2%
+</td>
+<td class="rep">
+36.8%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+6
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+59.1%
+</td>
+<td class="rep">
+36.4%
+</td>
+<td class="other">
+4.5%
+</td>
+<td class="wnv">
+3
+</td>
+</tr>
+<tr>
+<td>
+Virginia
+</td>
+<td class="dem">
+82.6%
+</td>
+<td class="rep">
+17.4%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+2
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+78.3%
+</td>
+<td class="rep">
+17.4%
+</td>
+<td class="other">
+4.3%
+</td>
+<td class="wnv">
+2
+</td>
+</tr>
+<tr>
+<td>
+West Virginia
+</td>
+<td class="dem">
+25.0%
+</td>
+<td class="rep">
+75.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+24.0%
+</td>
+<td class="rep">
+76.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+0
+</td>
+</tr>
+<tr>
+<td>
+Wyoming
+</td>
+<td class="dem">
+40.0%
+</td>
+<td class="rep">
+60.0%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+5
+</td>
+<td class="spacer">
+</td>
+<td class="dem">
+45.8%
+</td>
+<td class="rep">
+54.2%
+</td>
+<td class="other">
+0.0%
+</td>
+<td class="wnv">
+1
+</td>
+</tr>
+</tbody>
+</table>
+<p>Here the total number of personas that would not vote is shown per model per state; however, these were not used to create the percentage of votes for each candidate.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>We can see that the Anthropic model predicts a total of 17 states to elect a Democratic candidate, and 16 states to elect a Republican candidate, with 2 states ending in ties. The OpenAI model predicts a total of 15 states to elect a Democratic candidate, and 20 states to elect a Republican candidate. The states that differ are Florida, Louisiana, North Carolina, and Oklahoma. The Anthropic model predicts a tie in Florida and Louisiana and a Democratic win in North Carolina and Oklahoma, while the OpenAI model predicts a Republican win in all four. Overall, the Anthropic model gives more seats to the Democratic Party, and the OpenAI model gives more to the Republican Party.</p>
+</section>
+<section id="models-and-api-costs" class="level2">
+<h2 class="anchored" data-anchor-id="models-and-api-costs">Models and API Costs</h2>
+<p>The two models used for this forecast were Claude Sonnet 5.5 from Anthropic and GPT-6 Luna from OpenAI. To perform the forecast, 875 queries were made to each model, for a total of 1,750 queries (one per persona). The Anthropic model used a total of 576,000 tokens, and the OpenAI model used a total of 326,000 tokens. The cost of the forecast was $1.44 for the Anthropic model and $0.08 for the OpenAI model, for a total of $1.52.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<p>To create the synthetic personas, we used the 2025 CES to find the proportions of gender, race, education, party, ideology, and whether they are registered voters of the populations of each state having a Senate seat election. By taking these totals, we were able to perform weighted samples on each characteristic, with replacement, to create 25 synthetic personas per state.</p>
+<p>Sampling with replacement allowed us to create personas that are representative of the population, due to the weights, but also not being constricted to the exact population surveyed, by sampling. The sample was used without post-stratification. This was due to the fact that the CES is already weighted to match the population of each state.</p>
+<p>Each persona was then queried to find whether they would vote for the Democratic candidate, Republican candidate, Other candidate, or not vote at all. These responses were all cached, to avoid future queries to the models for the same data. The results were then aggregated to find the total number of votes for each candidate per state, with only the votes for the Democratic, Republican, and Other candidates being used to find the percentage of votes for each candidate, as any personas who would not vote were treated as if they did not vote.</p>
+<p>The exact question asked to each persona was: “Would you vote for the Democratic candidate, the Republican candidate, someone else, or would you not vote?”. This question was framed as between the parties, rather than the candidates, as the personas only have access to the CES and not to the news, candidate names would not help them compare the candidates with the party they represent. This was also done to match the CES, which asks about party preference rather than candidate preference.</p>
+<p>Python was used throughout the entire process (<a href="https://www.python.org">Python Software Foundation (2023)</a>), with the data mostly being stored in Parquet files (<a href="https://parquet.apache.org">Apache Software Foundation (2026)</a>).</p>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>This forecast builds on the idea that a large language model can become a substitute for a human response. <a href="https://doi.org/10.1017/pan.2023.2">Argyle et al.&nbsp;(2023)</a> trained GPT-3 on sociodemographic backstories taken from real surveys and found that its answers reproduced the same patterns as the responses from real respondents. Our approach mimics this by creating synthetic personas from the CES demographics and taking their responses to be representative of an actual population.</p>
+<p><a href="https://doi.org/10.1017/pan.2024.5">Bisbee et al.&nbsp;(2024)</a> found that ChatGPT’s averages could look close to the true ANES baseline, while the synthetic responses showed less variation than real responses, and that the wording of the prompt allowed changes in the results. Our design shares these same limitations. As we are only taking small samples of 25 personas per state, the small variation of synthetic responses leads us to make more extreme predictions than we would with a larger sample. Only one version of the prompt was given to the models, so the effect that the wording has on the results is unknown.</p>
+<p>The results of this forecast are generally similar to the current state of the U.S. Senate, prior to the 2026 election, with both models predicting close results between the two parties, which is consistent with the current House. However, the Anthropic model predicts a more Democratic election, while the OpenAI model predicts a more Republican election, with the current House having a Republican majority.</p>
+<p>Now this cannot be taken at face value, as over the last few years, the political landscape of the United States has been changing quickly, and that might affect on the election results, which this forecast does not take into account. Giving the models more information about the current political landscape may improve the results of the forecast, however, giving the correct information to the models is a difficult task, as the information chosen to be fed in may result in a bias towards one party or another. The way the information is presented to the models may also have an effect on the results. Asking the models additional questions may also help us understand the personas better and how they would vote. These responses may also be used to create more detailed and accurate models of the personas, which may improve the results of the forecast.</p>
+<p>The results of this forecast are not meant to give an accurate prediction of the actual election outcome, due to the limited testing, scope, and resources available. However, this forecast does provide evidence that large language models can be used to create synthetic responses from personas that reflect real-world voting behavior. Further research is needed to improve the accuracy of these predictions and to understand the limitations of using large language models in this way.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<!-- Site footer, added to every page by include-after-body in website.qmd. Styled by the footer rule in styles.css. -->
+<footer>
+  <p>
+    Made by
+    <a href="https://github.com/KyleDong03">Kyle Dong</a> and
+    <a href="https://github.com/gerrypeng8">Gerry Peng</a>.
+  </p>
+  <p>
+    Source code on
+    <a href="https://github.com/gerrypeng8/synthetic-election-forecast">https://github.com/gerrypeng8/synthetic-election-forecast</a>.
+  </p>
+  <p>
+    Last updated: 2026-11-02.
+  </p>
+</footer>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

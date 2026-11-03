@@ -1,0 +1,251 @@
+/* Newspaper look: cream paper, serif type, ruled headlines, and a centred masthead. */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap");
+
+:root {
+  --paper: #f7f4ea;
+  --ink: #111111;
+  --muted: #555555;
+  --rule: #111111;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Libre Caslon Text", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Masthead: the title sits between a double rule, like a newspaper nameplate. */
+header#title-block-header {
+  text-align: center;
+  border-top: 4px double var(--rule);
+  border-bottom: 1px solid var(--rule);
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 0;
+}
+
+.quarto-title-block h1.title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.quarto-title-block .subtitle {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 0.75rem;
+}
+
+.quarto-title-block .quarto-title-author-name,
+.quarto-title-block .date {
+  font-family: "Libre Caslon Text", Georgia, serif;
+  font-style: italic;
+  color: var(--muted);
+}
+
+/* Keep the article in a newspaper column width, easy to read on a phone too. */
+main.content {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Section headings read as headlines, each set off by a thin rule. */
+h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 0.6rem;
+  margin-top: 2.2rem;
+}
+
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+/* The synthetic-data notice looks like an editor's note in a box. */
+.callout {
+  background: #ffffff;
+  border: 1px solid var(--rule);
+  border-left: 6px solid var(--rule);
+  border-radius: 0;
+}
+
+.callout-important {
+  border-left-color: #8b0000;
+}
+
+/* Race charts sit two to a row, so the page is shorter. The grid is wider than the text column
+   so each chart stays readable. Phones get one column at the normal width. */
+.race-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem 1.5rem;
+  width: min(72rem, calc(100vw - 2rem));
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.race-grid img {
+  margin: 0;
+}
+
+/* One colour key for all the donut charts, centred above the grid. */
+.race-key {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+.key-dot {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  margin-right: 0.4em;
+  vertical-align: baseline;
+}
+
+.key-dot.dem {
+  background: #1f40d6;
+}
+
+.key-dot.rep {
+  background: #e10600;
+}
+
+.key-dot.other {
+  background: #9e9e9e;
+}
+
+@media (max-width: 40rem) {
+  .race-grid {
+    grid-template-columns: 1fr;
+    width: auto;
+    margin-left: 0;
+    transform: none;
+  }
+}
+
+/* Charts sit on the paper with a thin frame, no shadows or rounded corners. */
+main img {
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Compact newspaper-style table that fits the page width, so it does not scroll sideways. */
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  background: transparent;
+  margin: 1rem 0;
+}
+
+th,
+td {
+  padding: 0.3rem 0.4rem;
+  border-bottom: 1px solid #cccccc;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+/* The forecast table is wider than the text column, like the race grid, so the State column
+   has room for names such as "North Carolina" on one line. */
+.forecast {
+  width: min(72rem, calc(100vw - 2rem));
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.forecast th:first-child,
+.forecast td:first-child {
+  width: 9rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 40rem) {
+  .forecast {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+}
+
+/* Party colours in the summary table, matching the donut charts. */
+.forecast .dem {
+  color: #1f40d6;
+  font-weight: 700;
+}
+
+.forecast .rep {
+  color: #e10600;
+  font-weight: 700;
+}
+
+/* Other is grey, the same colour as its slice in the donut charts. */
+.forecast .other {
+  color: #9e9e9e;
+  font-weight: 700;
+}
+
+.forecast .wnv {
+  color: var(--muted);
+}
+
+/* Every cell is centred, so the State column lines up with the numbers. Headers stay on one line. */
+.forecast th,
+.forecast td {
+  text-align: center;
+}
+
+.forecast th {
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
+
+.forecast .spacer {
+  width: 1rem;
+  border-bottom: none;
+  border-top: none;
+}
+
+thead th {
+  border-top: 2px solid var(--rule);
+  border-bottom: 2px solid var(--rule);
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+}
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 4px double var(--rule);
+  color: var(--muted);
+  font-size: 0.9rem;
+}

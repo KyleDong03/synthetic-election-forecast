@@ -8,8 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "03_silicon_sampled_data"
 
 SHORT_NAMES = {"anthropic/claude-sonnet-5.5": "claude", "openai/gpt-6-luna": "gpt"}
-COLUMNS = ["dem", "rep", "other", "would_not_vote", "dem_perc", "rep_perc", "other_perc",
-           "would_not_vote_perc", "leader"]
+COLUMNS = ["dem", "rep", "other", "would_not_vote", "dem_perc", "rep_perc", "other_perc", "leader"]
 
 
 def summarize(answers):
@@ -24,11 +23,12 @@ def summarize(answers):
             (pl.col("vote") == "Would not vote").sum().alias("would_not_vote"),
             pl.len().alias("total"),
         )
+        # Percentages use only Democratic, Republican and Other votes, so they sum to 100.
+        # Would not vote is counted but left out of the base.
         .with_columns(
-            (100 * pl.col("dem") / pl.col("total")).alias("dem_perc"),
-            (100 * pl.col("rep") / pl.col("total")).alias("rep_perc"),
-            (100 * pl.col("other") / pl.col("total")).alias("other_perc"),
-            (100 * pl.col("would_not_vote") / pl.col("total")).alias("would_not_vote_perc"),
+            (100 * pl.col("dem") / (pl.col("dem") + pl.col("rep") + pl.col("other"))).alias("dem_perc"),
+            (100 * pl.col("rep") / (pl.col("dem") + pl.col("rep") + pl.col("other"))).alias("rep_perc"),
+            (100 * pl.col("other") / (pl.col("dem") + pl.col("rep") + pl.col("other"))).alias("other_perc"),
         )
         .with_columns(
             pl.when(pl.col("dem") > pl.col("rep")).then(pl.lit("Democratic"))
