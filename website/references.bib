@@ -1,0 +1,94 @@
+% BibTeX entries for the software used in this project.
+% Versions are the ones locked in uv.lock (Python pinned to 3.12 in .python-version).
+% Software without a paper is cited as @misc with its version, following the
+% usual convention for software citations.
+
+% Python language itself (requires-python = ">=3.12,<3.13")
+@misc{python,
+  author       = {{Python Software Foundation}},
+  title        = {{Python}},
+  version      = {3.12},
+  year         = {2023},
+  howpublished = {\url{https://www.python.org}},
+  note         = {Python Software Foundation, version 3.12}
+}
+
+% Direct dependencies from pyproject.toml
+
+% NumPy: cite the 2020 Nature paper for the library, with the locked version in note
+@article{harris2020array,
+  author  = {Harris, Charles R. and Millman, K. Jarrod and van der Walt, St{\'e}fan J. and
+             Gommers, Ralf and Virtanen, Pauli and Cournapeau, David and Wieser, Eric and
+             Taylor, Julian and Berg, Sebastian and Smith, Nathaniel J. and Kern, Robert and
+             Picus, Matti and Hoyer, Stephan and van Kerkwijk, Marten H. and Brett, Matthew and
+             Haldane, Allan and del R{\'i}o, Jaime Fern{\'a}ndez and Wiebe, Mark and
+             Peterson, Pearu and G{\'e}rard-Marchant, Pierre and Sheppard, Kevin and
+             Reddy, Tyler and Weckesser, Warren and Abbasi, Hameer and Gohlke, Christoph and
+             Oliphant, Travis E.},
+  title   = {Array programming with {NumPy}},
+  journal = {Nature},
+  volume  = {585},
+  number  = {7825},
+  pages   = {357--362},
+  year    = {2020},
+  doi     = {10.1038/s41586-020-2649-2},
+  note    = {NumPy version 2.5.4}
+}
+
+% Matplotlib: cite the 2007 paper, which is the standard reference for the library
+@article{hunter2007matplotlib,
+  author  = {Hunter, John D.},
+  title   = {Matplotlib: A 2D Graphics Environment},
+  journal = {Computing in Science \& Engineering},
+  volume  = {9},
+  number  = {3},
+  pages   = {90--95},
+  year    = {2007},
+  doi     = {10.1109/MCSE.2007.55},
+  note    = {Matplotlib version 3.11.2}
+}
+
+% Polars: DataFrame library used for all data loading and summaries
+@misc{polars,
+  author       = {Vink, Ritchie and {Polars contributors}},
+  title        = {{Polars}: Fast multi-threaded {DataFrame} library},
+  version      = {2.1.0},
+  year         = {2026},
+  howpublished = {\url{https://github.com/pola-rs/polars}}
+}
+
+% OpenAI Python client, used by scripts/query_personas.py to query the models
+@misc{openai,
+  author       = {{OpenAI}},
+  title        = {{openai-python}: The official {Python} library for the {OpenAI} {API}},
+  version      = {3.42.0},
+  year         = {2026},
+  howpublished = {\url{https://github.com/openai/openai-python}}
+}
+
+% pyDataverse: used by scripts/download_data.py to fetch the CES data
+@misc{pydataverse,
+  author       = {{Global Dataverse Community Consortium}},
+  title        = {{pyDataverse}: Python package for the {Dataverse} {API}},
+  version      = {0.3.5},
+  year         = {2026},
+  howpublished = {\url{https://github.com/gdcc/pyDataverse}}
+}
+
+% python-dotenv: loads the API key from .env
+@misc{dotenv,
+  author       = {Kumar, Saurabh},
+  title        = {{python-dotenv}: Reads key-value pairs from a {.env} file},
+  version      = {1.2.4},
+  year         = {2026},
+  howpublished = {\url{https://github.com/theskumar/python-dotenv}}
+}
+
+% Development dependency: used for the tests in tests/
+@misc{pytest,
+  author       = {{pytest development team}},
+  title        = {{pytest}: helps you write better programs},
+  version      = {9.2.0},
+  year         = {2026},
+  howpublished = {\url{https://github.com/pytest-dev/pytest}}
+}

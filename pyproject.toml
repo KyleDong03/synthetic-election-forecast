@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Reproducible election forecasts using synthetic survey responses"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "openai>=3.42.0",
     "polars>=2.1.0",
